@@ -45,3 +45,14 @@ data GameRecord = GameRecord
     -- ^ The list of colours in the game.
     }
     deriving (Eq, Ord, Read, Show)
+
+
+
+-- REUSED FROM INITIAL COURSEWORK
+-- New data type
+data GameSettings = GameSettings 
+  {
+    gameRecord :: GameRecord ,
+    expectedPlayer :: Player
+  }
+  deriving (Eq, Ord, Read, Show)
