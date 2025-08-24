@@ -1,4 +1,4 @@
-# Gridlock game parser
+# Gridlock game
 
 This program was created as part of the 2nd coursework for the Functional Programming module that I took at the university. The program is written in Haskell programming language.
 
