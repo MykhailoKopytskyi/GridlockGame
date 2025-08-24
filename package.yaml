@@ -13,6 +13,7 @@ dependencies:
 - ansi-terminal
 - pretty-simple
 - transformers
+- mtl
 
 ghc-options:
 - -Wall

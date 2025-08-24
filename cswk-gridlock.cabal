@@ -31,6 +31,7 @@ library
     , base >=4.7 && <5
     , containers
     , megaparsec
+    , mtl
     , parser-combinators
     , pretty-simple
     , transformers
@@ -51,6 +52,7 @@ executable cswk-gridlock
     , containers
     , cswk-gridlock
     , megaparsec
+    , mtl
     , parser-combinators
     , pretty-simple
     , transformers
@@ -77,6 +79,7 @@ test-suite cswk-gridlock-test
     , directory
     , filepath
     , megaparsec
+    , mtl
     , parser-combinators
     , pretty-simple
     , random
